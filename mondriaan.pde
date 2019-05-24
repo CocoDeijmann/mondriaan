@@ -30,7 +30,7 @@ void draw(){
 
 void getWeather(){
   //vul eigen API key in tussen de ""
-  String api_key = "618fa36521d85b5e5d52af9f3874d91d";
+  String api_key = "";
   String id = "5861897";
   JSONObject weatherjson = loadJSONObject("https://api.openweathermap.org/data/2.5/weather?id=" + id + "&units=metric&APPID=" + api_key);
 
